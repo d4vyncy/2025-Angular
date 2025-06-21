@@ -12,6 +12,10 @@ export const routes: Routes = [
         component:AcercaDeComponent
     },
     {
+        path:'login',
+        component:AcercaDeComponent
+    },
+    {
         path:'**',
         component:InicioComponent
     }
